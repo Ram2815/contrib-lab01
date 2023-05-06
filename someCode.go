@@ -35,6 +35,6 @@ func getLanguage(project string) string {
 func main() {
 	project := "strato"
 	lang := getLanguage(project)
-	fmt.Printf("the language used for project: %s is %s\n", project, lang)
+	fmt.Printf("the language used for the project: %s is %s\n", project, lang)
 
 }
